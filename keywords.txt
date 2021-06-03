@@ -1,0 +1,26 @@
+#######################################
+# Syntax Coloring Map For USBHost
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+sprintIR_CO2	KEYWORD1	sprintIRCO2Constructor
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+init	KEYWORD2	
+update	KEYWORD2
+get_CO2	KEYWORD2
+get_CO2_mutliplier	KEYWORD2
+get_CO2_ppm	KEYWORD2
+get_humidity	KEYWORD2
+get_temperature	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
