@@ -4,10 +4,18 @@
 //
 // Matt Anderson, 2020
 
+// This script is written to work with Arduino boards
+// that have multiple serial ports (or a seperate USB
+// serial port).  If you're using a board that shares
+// the hardware serial port with the USB connection,
+// (such as the Uno), create a SoftwareSerial port 
+// and connect the CO2 Sensor (_CO2_SERIAL) to that
+// port.
+
 #include <sprintIR_CO2.h>
 
-#define _CO2_SERIAL Serial1
-#define SERIAL_DEBUG Serial
+#define _CO2_SERIAL Serial1   // Serial port the CO2 Sensor is connected to
+#define SERIAL_DEBUG Serial   // Serial port to see the outputs on
 
 sprintIR_CO2 CO2(_CO2_SERIAL);
 
